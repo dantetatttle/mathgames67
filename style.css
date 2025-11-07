@@ -32,6 +32,12 @@
     --gradient-surface: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
 }
 
+.logo-icon {
+  width: 1em;   /* matches text height */
+  height: 1em;
+}
+
+
 .dark-mode {
     --primary: #fc2651;
     --primary-hover: #ff4d75;
@@ -604,4 +610,5 @@ footer {
     }
 
 }
+
 
