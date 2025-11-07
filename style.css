@@ -1,6 +1,6 @@
 :root {
     --primary: #cdff00;
-    --primary-hover: #f6ff5f;
+    --primary-hover: #f7fc26;
     --primary-light: rgba(252, 38, 81, 0.1);
     --primary-lighter: rgba(252, 38, 81, 0.05);
     --accent: #8b5cf6;
@@ -623,6 +623,7 @@ footer {
     }
 
 }
+
 
 
 
