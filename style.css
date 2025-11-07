@@ -44,6 +44,13 @@
   height: 32px;
 }
 
+.cheesy-dih-def {
+    width: 100px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
 .dark-mode {
     --primary: #fc2651;
     --primary-hover: #ff4d75;
@@ -616,6 +623,7 @@ footer {
     }
 
 }
+
 
 
 
