@@ -32,11 +32,17 @@
     --gradient-surface: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
 }
 
-.logo-icon {
-  width: 1em;   /* matches text height */
-  height: 1em;
+.logo {
+  display: flex;          /* Aligns items horizontally */
+  align-items: center;    /* Vertically centers the icon with the text */
+  gap: 8px;               /* Space between icon and text */
+  font-size: 24px;        /* Adjust text size as needed */
 }
 
+.logo-icon {
+  width: 32px;            /* Adjust icon size */
+  height: 32px;
+}
 
 .dark-mode {
     --primary: #fc2651;
@@ -610,5 +616,6 @@ footer {
     }
 
 }
+
 
 
