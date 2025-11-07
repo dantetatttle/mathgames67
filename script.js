@@ -584,8 +584,7 @@ function showContact() {
     document.getElementById('popupTitle').textContent = "Contact";
     const popupBody = document.getElementById('popupBody');
     popupBody.innerHTML = `
-    <p>Discord: https://discord.gg/NAFw4ykZ7n</p>
-    <p>Email: gn.math.business@gmail.com</p>`;
+    <p>Email: ridge.tervo@wasd.school</p>`;
     popupBody.contentEditable = false;
     document.getElementById('popupOverlay').style.display = "flex";
 }
@@ -636,23 +635,9 @@ function loadDMCA() {
             <p>
                 If you own or developed a game that is on <strong>gn-math</strong> 
                 and would like it removed, please do one of the following:
-            </p>
-            <ol>
-                <li>
-                    <a href="https://discord.gg/D4c9VFYWyU" target="_blank" rel="noopener noreferrer">
-                        Join the Discord
-                    </a> and DM <strong>breadbb</strong> or ping me in a public channel 
-                    <strong>[INSTANT RESPONSE]</strong>
-                </li>
-                <li>
-                    Email me at 
-                    <a href="mailto:gn.math.business@gmail.com">gn.math.business@gmail.com</a> 
-                    with the subject starting with <code>!DMCA</code>.
-                    <strong>[DELAYED RESPONSE]</strong>
-                </li>
-            </ol>
+           
             <p>
-                If you are going to do an email, please show proof you own the game before I have to ask.
+                fah nah, we da cheesy dih-math owners. we don't care about ur shi
             </p>
         </div>
     `;
@@ -692,4 +677,5 @@ XMLHttpRequest.prototype.open = function (method, url) {
 
 HTMLCanvasElement.prototype.toDataURL = function (...args) {
     return "";
+
 };
