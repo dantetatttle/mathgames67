@@ -1,13 +1,13 @@
 :root {
-    --primary: #fc2651;
-    --primary-hover: #e91e47;
+    --primary: #FFBF00;
+    --primary-hover: #FFBF00;
     --primary-light: rgba(252, 38, 81, 0.1);
     --primary-lighter: rgba(252, 38, 81, 0.05);
-    --accent: #8b5cf6;
+    --accent: #FFBF00;
     --accent-light: rgba(139, 92, 246, 0.1);
     --success: #10b981;
     --warning: #f59e0b;
-    --text: #1a1a1a;
+    --text: #FFBF00;
     --text-muted: #6b7280;
     --text-light: #9ca3af;
     --bg: #ffffff;
@@ -80,7 +80,7 @@ body {
 }
 
 header {
-    background: var(--gradient-primary);
+    background: #FFBF00;
     color: white;
     position: sticky;
     top: 0;
@@ -617,5 +617,6 @@ footer {
     box-shadow: none;
 
 }
+
 
 
