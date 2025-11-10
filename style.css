@@ -47,8 +47,6 @@
   margin-right: 10px; /* Adds space between the image and the text */
 }
 
-
-
 .dark-mode {
     --primary: #fc2651;
     --primary-hover: #ff4d75;
@@ -624,6 +622,7 @@ footer {
     box-shadow: none;
 
 }
+
 
 
 
