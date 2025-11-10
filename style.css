@@ -5,17 +5,17 @@
     --primary-lighter: rgba(252, 38, 81, 0.05);
     --accent: #FFBF00;
     --accent-light: rgba(139, 92, 246, 0.1);
-    --success: #10b981;
-    --warning: #f59e0b;
+    --success: #FFBF00;
+    --warning: #FFBF00;
     --text: #FFBF00;
-    --text-muted: #6b7280;
-    --text-light: #9ca3af;
-    --bg: #ffffff;
-    --bg-secondary: #f8fafc;
-    --surface: #ffffff;
-    --surface-hover: #f1f5f9;
-    --border: #e2e8f0;
-    --border-light: #f1f5f9;
+    --text-muted: #FFBF00;
+    --text-light: #FFBF00;
+    --bg: #FFBF00;
+    --bg-secondary: #FFBF00;
+    --surface: #FFBF00;
+    --surface-hover: #FFBF00;
+    --border: #FFBF00;
+    --border-light: #FFBF00;
     --glass: rgba(255, 255, 255, 0.8);
     --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.05);
     --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
@@ -31,6 +31,23 @@
     --gradient-accent: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
     --gradient-surface: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
 }
+.logo {
+  width: auto; /* Prevents it from stretching to the screen width */
+  max-width: 300px; /* Sets a maximum width to control the size */
+  margin: 0 auto; /* Centers the logo horizontally */
+  padding: 20px; /* Adds padding around the logo */
+  display: flex; /* Allows for flexible alignment of contents */
+  align-items: center; /* Vertically centers the contents */
+  justify-content: center; /* Horizontally centers the contents */
+}
+
+.logo-icon {
+  width: 40px; /* You can adjust this size as needed */
+  height: auto;
+  margin-right: 10px; /* Adds space between the image and the text */
+}
+
+
 
 .dark-mode {
     --primary: #fc2651;
@@ -97,16 +114,6 @@ header {
     align-items: center;
     justify-content: space-between;
     gap: 1.5rem;
-}
-
-.logo {
-    font-size: 1.75rem;
-    font-weight: 800;
-    letter-spacing: -0.02em;
-    background: linear-gradient(135deg, #ffffff 0%, rgba(255, 255, 255, 0.8) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
 }
 
 .search-container {
@@ -617,6 +624,7 @@ footer {
     box-shadow: none;
 
 }
+
 
 
 
