@@ -42,7 +42,7 @@
 }
 
 .logo-icon {
-  width: 40px; /* You can adjust this size as needed */
+  width: 50px; /* You can adjust this size as needed */
   height: auto;
   margin-right: 10px; /* Adds space between the image and the text */
 }
@@ -228,7 +228,7 @@ main {
 }
 
 .zone-item {
-    background: var(--gradient-surface);
+    background: #FFBF00;
     border: 1px solid var(--border);
     border-radius: var(--radius-lg);
     overflow: hidden;
@@ -294,14 +294,14 @@ main {
 }
 
 .zone-item:hover button {
-    color: var(--primary);
+    color: #FFBF00;
     background: rgba(252, 38, 81, 0.05);
 }
 
 #zoneViewer {
     position: fixed;
     inset: 0;
-    background: var(--bg);
+    background: #FFBF00;
     z-index: 1000;
     display: none;
     flex-direction: column;
@@ -318,7 +318,7 @@ main {
 }
 
 .zone-header {
-    background: var(--gradient-primary);
+    background: #FFBF00;
     color: white;
     padding: 1rem 1.5rem;
     display: flex;
@@ -622,6 +622,7 @@ footer {
     box-shadow: none;
 
 }
+
 
 
 
