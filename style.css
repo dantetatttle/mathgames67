@@ -33,6 +33,21 @@
     --gradient-surface: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
 }
 
+.logo {
+  font-size: 1.5rem; /* or whatever size you want */
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 0.4em; /* spacing between image and text */
+}
+
+.logo-icon {
+  height: 1em; /* make the image the same height as the text */
+  width: auto; /* keep aspect ratio */
+  vertical-align: middle;
+}
+
+
 .dark-mode {
     --primary: #f7fc26;           /* yellow accents for dark mode */
     --primary-hover: #fffd75;
@@ -292,6 +307,7 @@ footer {
     #container, #featuredZones { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 1rem; }
     .zone-item:hover { transform: translateY(-4px) scale(1.01); }
 }
+
 
 
 
