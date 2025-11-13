@@ -561,7 +561,7 @@ function tabCloak() {
         <label for="tab-cloak-textbox" style="font-weight: bold;">Set Tab Icon:</label><br>
         <input type="text" id="tab-cloak-textbox" placeholder="Enter new tab icon..." oninput='cloakIcon(this.value)'>
         <br><br><br>
-    `;er
+    `;
     popupBody.contentEditable = false;
     document.getElementById('popupOverlay').style.display = "flex";
 }
@@ -679,4 +679,5 @@ HTMLCanvasElement.prototype.toDataURL = function (...args) {
     return "";
 
 };
+
 
